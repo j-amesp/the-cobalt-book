@@ -100,43 +100,16 @@ No party is authorised to sell Cobalt certification. See [LICENCE.md](LICENCE.md
 
 These exist because a vendor-neutrality standard is worth exactly as much as the mechanisms that stop it being captured.
 
-- **Two independent implementations.** No pattern enters the reference library until at least two implementations, on independent platforms, have passed conformance against the same contract. A single-implementation pattern is a vendor pattern with a standards body's name on it.
 - **Conformance is free and self-servable.** The moment conformance requires a paid assessor, whoever owns the assessor owns government technology.
 - **Contracts, not products.** If only one platform can satisfy a contract, the contract is wrong.
-- **Growth is a defect.** Adding an archetype, overlay, profile or capability primitive requires public justification and proof that composition of the existing set is insufficient.
-- **Governance is to be ceded.** The intended end state is maintenance by a body with no commercial interest in any implementation, with the author holding no privileged position in it.
 
 **Declaration of interest.** The author is employed by a major cloud and infrastructure vendor active in the public sector market. This is stated in the front matter of every release, not in a footnote. A vendor-neutrality standard authored by a vendor architect will be read as positioning unless the governance that prevents it is stated openly and can be checked. That is the correct reading. The two-implementation rule exists to answer it in engineering terms rather than in assurances.
 
 This is not an HM Treasury, Cabinet Office or departmental publication and carries no official status.
 
-## Repository
-
-| Path | Contents | Status |
-|---|---|---|
-| `the-cobalt-book.md` | The specification | v0.1, published |
-| `schema/` | Declaration schema and serialisation to open control format | Not yet published |
-| `profiles/` | Control content for SP1–SP6 | Not yet published — see below |
-| `patterns/` | Reference implementation library | Blocked on the two-implementation rule |
-| `conformance/` | Test suites and rehearsal templates | Not yet published |
-
-Profile contents are withheld deliberately. Publishing them before two implementations exist would breach the project's own rules on the first day. The alternative — shipping a complete-looking document — would be less honest and less useful.
-
-## Roadmap
-
-1. **Declaration schema and validator.** Enables C1. Highest value per unit of effort, because it produces the first machine-readable estate inventory anyone has held.
-2. **Profile specification, SP1–SP6.** Turns the standard from a promise into something testable.
-3. **Archetype-to-profile derivation matrix.** The profile engine's logic, published so it can be argued with.
-4. **First two reference patterns.** On independent platforms, per the rules above.
-5. **Conformance tooling and exit rehearsal templates.**
-
 ## Contributing
 
 Six open questions are recorded in Section 17 of the specification. They are the most useful place to start, and they are open because they are genuinely unresolved rather than as an invitation to agree.
-
-Substantive disagreement is more valuable than endorsement. If the taxonomy fails to classify a real system you have worked on, that is the single most useful thing you can report — say what the system was and where it broke.
-
-Contributors are attributed and retain copyright in their contributions. If your employer holds rights in work you produce, obtain their agreement first. That applies to the author as much as to anyone else.
 
 ## Citation
 
